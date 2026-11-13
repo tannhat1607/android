@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "TodoTask": {
+      "title": "TodoTask",
+      "description": "Represents a personal todo task owned by an authenticated user.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The UID of the user who owns this task."
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the task (1 to 200 characters)."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional details or notes for the task (0 to 1000 characters)."
+        },
+        "category": {
+          "type": "string",
+          "description": "Category tag for the task.",
+          "enum": ["WORK", "PERSONAL", "SHOPPING", "STUDY", "HEALTH"]
+        },
+        "priority": {
+          "type": "string",
+          "description": "Priority level of the task.",
+          "enum": ["LOW", "MEDIUM", "HIGH"]
+        },
+        "completed": {
+          "type": "boolean",
+          "description": "Whether the task has been completed."
+        },
+        "dueDateMillis": {
+          "type": "integer",
+          "description": "Epoch milliseconds for due date, or 0 if no due date is set."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the task was created via FieldValue.serverTimestamp()."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the task was last updated via FieldValue.serverTimestamp()."
+        }
+      },
+      "required": [
+        "userId",
+        "title",
+        "notes",
+        "category",
+        "priority",
+        "completed",
+        "dueDateMillis",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/tasks/{taskId}": {
+      "schema": {
+        "$ref": "#/entities/TodoTask"
+      },
+      "description": "User-scoped subcollection storing personal todo tasks."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TaskFlow</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_welcome_badge">QUẢN LÝ CÔNG VIỆC THÔNG MINH</string>
+    <string name="auth_headline">Tập trung vào điều quan trọng mỗi ngày</string>
+    <string name="auth_subtitle">Lên kế hoạch nhanh gọn, phân loại ưu tiên trực quan và đồng bộ tự động trên đám mây.</string>
+    <string name="auth_sign_in_google">Đăng nhập bằng Google</string>
+    <string name="auth_feature_sync">Đồng bộ thời gian thực</string>
+    <string name="auth_feature_priority">Phân loại mức độ ưu tiên</string>
+    <string name="auth_feature_progress">Theo dõi tiến độ trong ngày</string>
+    <string name="auth_hero_content_desc">Minh họa bàn làm việc gọn gàng với sổ ghi chú công việc</string>
+
+    <!-- Main Dashboard -->
+    <string name="dashboard_greeting">Xin chào, %1$s</string>
+    <string name="dashboard_default_user">Bạn</string>
+    <string name="dashboard_subtitle">Hãy hoàn thành các mục tiêu hôm nay nhé!</string>
+    <string name="sign_out_content_desc">Đăng xuất tài khoản</string>
+    <string name="progress_card_title">Tiến độ hoàn thành</string>
+    <string name="progress_stats_format">%1$d / %2$d công việc hoàn tất</string>
+    <string name="progress_all_done">Tuyệt vời! Bạn đã hoàn thành tất cả công việc.</string>
+    <string name="progress_keep_going">Tiếp tục duy trì nhịp độ làm việc hiệu quả!</string>
+    <string name="search_placeholder">Tìm kiếm công việc hoặc ghi chú…</string>
+    <string name="clear_search_content_desc">Xóa từ khóa tìm kiếm</string>
+    <string name="clear_completed_action">Xóa mục đã xong (%1$d)</string>
+
+    <!-- Filters -->
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_active">Đang làm</string>
+    <string name="filter_completed">Đã xong</string>
+    <string name="category_all">Mọi danh mục</string>
+
+    <!-- Categories -->
+    <string name="category_personal">Cá nhân</string>
+    <string name="category_work">Công việc</string>
+    <string name="category_shopping">Mua sắm</string>
+    <string name="category_study">Học tập</string>
+    <string name="category_health">Sức khỏe</string>
+
+    <!-- Priorities -->
+    <string name="priority_high">Ưu tiên cao</string>
+    <string name="priority_medium">Trung bình</string>
+    <string name="priority_low">Thấp</string>
+
+    <!-- Due Date Labels -->
+    <string name="due_none">Không thời hạn</string>
+    <string name="due_today">Hôm nay</string>
+    <string name="due_tomorrow">Ngày mai</string>
+    <string name="due_next_week">Tuần tới</string>
+    <string name="due_overdue">Quá hạn</string>
+
+    <!-- Empty & Error States -->
+    <string name="empty_tasks_title">Chưa có công việc nào</string>
+    <string name="empty_tasks_subtitle">Nhấn nút \"Thêm việc mới\" bên dưới để bắt đầu lên danh sách công việc trong ngày của bạn.</string>
+    <string name="empty_filtered_title">Không tìm thấy công việc phù hợp</string>
+    <string name="empty_filtered_subtitle">Thử thay đổi bộ lọc hoặc từ khóa tìm kiếm để xem các công việc khác.</string>
+
+    <!-- Task Item Actions -->
+    <string name="fab_add_task">Thêm việc mới</string>
+    <string name="task_toggle_desc">Đánh dấu hoàn thành công việc</string>
+    <string name="task_edit_desc">Chỉnh sửa công việc</string>
+    <string name="task_delete_desc">Xóa công việc</string>
+
+    <!-- Add / Edit Dialog -->
+    <string name="dialog_add_task_title">Thêm công việc mới</string>
+    <string name="dialog_edit_task_title">Chỉnh sửa công việc</string>
+    <string name="field_title_label">Tên công việc *</string>
+    <string name="field_title_placeholder">Ví dụ: Gửi báo cáo tuần trước 17h</string>
+    <string name="field_notes_label">Ghi chú chi tiết</string>
+    <string name="field_notes_placeholder">Thêm ghi chú, đường dẫn hoặc các bước nhỏ…</string>
+    <string name="field_category_label">Danh mục</string>
+    <string name="field_priority_label">Mức độ ưu tiên</string>
+    <string name="field_due_label">Thời hạn</string>
+    <string name="action_save">Lưu công việc</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="error_empty_title">Vui lòng nhập tên công việc</string>
+</resources>

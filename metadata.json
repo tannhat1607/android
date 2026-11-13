@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow",
+  "description": "Ứng dụng quản lý công việc hàng ngày đơn giản, trực quan và đồng bộ đám mây.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
